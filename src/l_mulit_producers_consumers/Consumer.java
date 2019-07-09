@@ -1,4 +1,4 @@
-package k_mulit_producers_consumers;
+package l_mulit_producers_consumers;
 
 /**
  * 消费者

@@ -1,7 +1,7 @@
-package k_mulit_producers_consumers;
+package l_mulit_producers_consumers;
 
 /**
- * 加斯
+ * 多生产者、多消费者情况下的异常情况
  * Created by kilo on 2019/7/9.
  */
 public class Main {

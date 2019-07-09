@@ -1,8 +1,8 @@
-package k_mulit_producers_consumers;
+package k_one_producer_customer.operand_value;
 
 /**
  * 只存储一个字符串
- * Created by kilo on 2019/7/9.
+ * Created by kilo on 2019/7/10.
  */
 public class ValueObject {
     private static String value = "";
