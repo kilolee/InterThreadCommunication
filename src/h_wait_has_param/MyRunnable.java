@@ -41,9 +41,9 @@ public class MyRunnable {
 		t1.start();
 
 //		未超时等待
-		Thread.sleep(3000);
-		Thread t2 = new Thread(notifyThread);
-		t2.start();
+//		Thread.sleep(3000);
+//		Thread t2 = new Thread(notifyThread);
+//		t2.start();
 	}
 
 }
