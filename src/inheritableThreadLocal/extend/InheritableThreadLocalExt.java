@@ -21,5 +21,4 @@ public class InheritableThreadLocalExt extends InheritableThreadLocal {
     protected Object childValue(Object parentValue) {
         return parentValue + "我在线程加的";
     }
-
 }

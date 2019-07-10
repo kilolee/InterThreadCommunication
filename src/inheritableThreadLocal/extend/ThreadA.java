@@ -15,6 +15,4 @@ public class ThreadA extends Thread {
 			e.printStackTrace();
 		}
 	}
-
-
 }
