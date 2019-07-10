@@ -1,4 +1,4 @@
-package l_mulit_producers_consumers;
+package l_mulit_producers_consumers_value_dead;
 
 /**
  * Created by kilo on 2019/7/9.
