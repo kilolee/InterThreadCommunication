@@ -16,10 +16,10 @@ public class Customer {
             synchronized (lock) {
                 if ("".equals(ValueObject.getValue())) {
 //                    System.out.println("消费者 "
-//                            + Thread.currentThread().getName() + " WAITING了☆");
+//                            + MyRunnable.currentThread().getName() + " WAITING了☆");
                     lock.wait();
                 }
-//                System.out.println("消费者 " + Thread.currentThread().getName()
+//                System.out.println("消费者 " + MyRunnable.currentThread().getName()
 //                        + " RUNNABLE了");
                 System.out.println("get 的值是 "+ValueObject.getValue());
                 ValueObject.setValue("");

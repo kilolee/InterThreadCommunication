@@ -17,10 +17,10 @@ public class Producer {
             synchronized (lock) {
                 while (!"".equals(ValueObject.getValue())) {
 //                    System.out.println("生产者 "
-//                            + Thread.currentThread().getName() + " WAITING了★");
+//                            + MyRunnable.currentThread().getName() + " WAITING了★");
                     lock.wait();
                 }
-//                System.out.println("生产者 " + Thread.currentThread().getName()
+//                System.out.println("生产者 " + MyRunnable.currentThread().getName()
 //                        + " RUNNABLE了");
                 String value = System.currentTimeMillis() + "_"
                         + System.nanoTime();
